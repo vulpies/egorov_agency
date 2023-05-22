@@ -1,0 +1,48 @@
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .main {
+        &:before {
+            top: -304px;
+            left: -406px;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .main {
+        &:before {
+            top: -278px;
+            left: -390px;
+            width: 810px;
+            height: 651px;
+        }
+        &::after {
+            width: 267px;
+            height: 324px;
+        }
+        &__logo {
+            margin: 80px 0 100px;
+        }
+
+        & h1 {
+            font-size: 55px;
+            margin-bottom: 18px;
+        }
+
+        & h2 {
+            max-width: 370px;
+            margin-bottom: 40px;
+        }
+
+        &__timer {
+            margin-bottom: 60px;
+            &-data {
+                h3 {
+                    font-size: 60px;
+                }
+            }
+            &-divider {
+                font-size: 55px;
+            }
+        }
+    }
+}

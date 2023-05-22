@@ -1,0 +1,75 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        &:before {
+            height: 385px;
+            top: -173px;
+            left: -214px;
+        }
+        &::after {
+            width: 236px;
+            height: 292px;
+        }
+        &__logo {
+            margin: 100px 0 166px;
+        }
+
+        & h1 {
+            font-size: 36px;
+            line-height: 104%;
+            margin-bottom: 20px;
+        }
+
+        & h2 {
+            max-width: 286px;
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+
+        &__timer {
+            margin-bottom: 40px;
+
+            &-divider {
+                font-size: 36px;
+            }
+
+            &-data {
+                h3 {
+                    font-size: 36px;
+                }
+
+                h4 {
+                    font-size: 12px;
+                    width: 64px;
+                    height: 40px;
+                    background-image: url("../../dist/img/timer-bckg_2.svg");
+                }
+            }
+        }
+
+        &__event {
+            margin-bottom: 169px;
+            h5 {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .footer {
+        &__input {
+            padding: 10px 55px 10px 20px;
+            font-size: 14px;
+            &-wrapper {
+                margin: 59px auto 60px;
+                width: 360px;
+            }
+        }
+        &__btn {
+            top: 4px;
+            right: 5px;
+            width: 33px;
+            height: 33px;
+            padding: 8.44px 8.44px 9.21px 9.21px;
+        }
+    }
+}
